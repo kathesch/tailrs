@@ -1,6 +1,6 @@
 # tailrs
 
-This is a command line tool for quickly initializing tailwind in a project directory. It is intended to lower the barrier to initializing tailwind in a barebone `index.html` only project directory and generally make it easier to experiment with simple web applciations.
+This is a command line tool for quickly initializing tailwind in a project directory. It is intended to lower the barrier to initializing tailwind in a barebone web application directory. This should help set up small prototype web applications for learning tailwind.
 
 ### Installation
 
@@ -9,6 +9,15 @@ This tool requires **npm** and a global installation of tailwind's cli **tailwin
 ```
 npm install tailwindcss -g
 ```
+
+tailrs can then be installed using brew. Presently, there is only a M1 MacOS release. 
+
+```
+brew tap kathesch/tailrs https://github.com/kathesch/tailrs
+brew install tailrs
+```
+
+The command can then be run with `tailrs` in the terminal. 
 
 ### How it works
 
