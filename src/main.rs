@@ -30,7 +30,7 @@ module.exports = {
 
     let _ = fs::write("tailwind.config.js", default_tailwind_config);
 
-    Command::new("bunx")
+    Command::new("npx")
         .args([
             "tailwindcss",
             "-i",
@@ -40,7 +40,7 @@ module.exports = {
             "--watch",
         ])
         .spawn()
-        .expect("Failed to spawn bunx")
+        .expect("Failed to spawn npx")
         .wait()
         .unwrap();
 }
