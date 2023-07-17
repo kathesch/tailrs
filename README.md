@@ -10,7 +10,7 @@ This tool requires **npm** and a global installation of tailwind's cli **tailwin
 npm install tailwindcss -g
 ```
 
-tailrs can then be installed using brew. Presently, there is only a M1 MacOS release. 
+tailrs can then be installed using brew. Presently, there is only a AppleSilicon MacOS release. 
 
 ```
 brew tap kathesch/tailrs https://github.com/kathesch/tailrs
